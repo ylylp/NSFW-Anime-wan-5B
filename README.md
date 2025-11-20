@@ -27,7 +27,7 @@ not-for-all-audiences: true
 </a>
 <br><br>
 
-[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Download%20Model-ffc107?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/你的用户名/你的模型仓库名)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Download%20Model-ffc107?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/yaleiyaleichiling/NSFW-Anime-wan-5B)
 
 <br>
 
@@ -83,7 +83,7 @@ Since v0.1 was trained on a small dataset (531 clips), it is **heavily biased** 
 To help you get the best results, I have extracted representative frames and their corresponding prompts from the training data.
 为了防止大家像无头苍蝇一样乱试 (Prevent random guessing)，我特意提取了训练集中的画面及其对应的提示词。
 
-👉 **[Download the Demo Pack (ZIP)](https://huggingface.co/你的用户名/你的模型仓库名/resolve/main/demo_prompts.zip)** 👈
+👉 **[Download the Demo Pack (ZIP)](https://huggingface.co/yaleiyaleichiling/NSFW-Anime-wan-5B/resolve/main/demo_prompts.zip)** 👈
 *(Click "Files and versions" if the link doesn't work, look for `demo_prompts.zip`)*
 
 **How to use:**
