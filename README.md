@@ -1,4 +1,16 @@
-# NSFW-Anime-wan-5B
+---
+license: apache-2.0
+library_name: diffusers
+tags:
+- text-to-video
+- wan-ai
+- wan2.2
+- anime
+- nsfw
+- unrestricted
+not-for-all-audiences: true
+---
+
 # 🌌 Wan2.2-Anime-Unlimited (v0.1 Alpha)
 
 <div align="center">
@@ -13,8 +25,11 @@
 <a href="https://afdian.com/a/233rrdou">
   <img src="https://img.shields.io/badge/爱发电-为我充电%20(China)-946CE6?style=for-the-badge&logo=electric&logoColor=white" alt="Support on Afdian"/>
 </a>
-
 <br><br>
+
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Download%20Model-ffc107?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/你的用户名/你的模型仓库名)
+
+<br>
 
 **Based on Wan2.2-5B | Runs on 6GB VRAM | Uncensored**
 **基于 Wan2.2-5B 架构 | 6GB 显存即可运行 | 无限制内容**
@@ -57,6 +72,31 @@ Since v0.1 was trained on a small dataset (531 clips), it is **heavily biased** 
 
 *Please note: Future versions will generalize to a much broader range of anime actions and styles as we scale to 50,000 clips.*
 *请注意：随着我们扩展到 5 万个素材，后续版本将支持更广泛、更通用的动漫动作和风格，而不仅限于上述内容。*
+
+---
+
+## 📚 Example Prompts & Dataset Previews (必看！提示词示例)
+
+**Don't know how to prompt? Start here!**
+**不知道怎么写提示词？先看这里！**
+
+To help you get the best results, I have extracted representative frames and their corresponding prompts from the training data.
+为了防止大家像无头苍蝇一样乱试 (Prevent random guessing)，我特意提取了训练集中的画面及其对应的提示词。
+
+👉 **[Download the Demo Pack (ZIP)](https://huggingface.co/你的用户名/你的模型仓库名/resolve/main/demo_prompts.zip)** 👈
+*(Click "Files and versions" if the link doesn't work, look for `demo_prompts.zip`)*
+
+**How to use:**
+1. Download and unzip the file.
+2. Look at the images (`.jpg`) to find a style/action you like.
+3. Open the matching text file (`.txt`) to see exactly how to prompt for it.
+4. **Copy the tags/sentences into your generation tool.**
+
+**使用方法：**
+1. 下载并解压压缩包。
+2. 浏览图片，找到你想要的效果。
+3. 打开同名的 TXT 文件，复制里面的提示词。
+4. 这样能保证 100% 还原模型原本的画风和动作！
 
 ---
 
